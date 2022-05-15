@@ -144,7 +144,7 @@ python -m virtualenv
 python -m virtualenv venv
 source venv/bin/activate
 python -m pip install selenium
-python -m pip is
+python -m pip list
 deactivate
 python -m pip list
 ```
@@ -209,7 +209,7 @@ phrases.greetings.morning
 
 #### Перевірте документацію
 ```sh
-source venv/bin/ac ivate
+source venv/bin/activate
 python -m pip install pydocstyle
 python -m pydocstyle phrases
 ```
@@ -247,7 +247,7 @@ python -m pydocstyle phrases
 * Знайдіть пакет на PYPI, який може перетворювати числа в слова.
 * Додати `requirements.txt`.
 * Створити пакет з логікою (він повинен бути розподілений між кількома модулями).
-* Додати документацію, яка відповідає стандартним правилам `pydocstyle rules`.
+* Додати документацію, яка відповідає стандартним правилам `pydocstyle`.
 * Налаштувати виконання за допомогою `python -m ...`.
 * Залийте код проекту на GitHub.
 * У файлі `README.md` додайте інструкцію з використання вашого пакету.
